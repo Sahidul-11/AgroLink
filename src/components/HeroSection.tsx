@@ -22,16 +22,16 @@ const HeroSection: React.FC = () => {
             Agriculture & Organic Farm <br /> Elementor WordPress Theme.
           </h1>
           <div className="flex justify-center md:justify-start gap-4 mt-6">
-            <div className="bg-orange-300 p-4 rounded-full">
+            <div className="bg-amber-300 p-4 rounded-full">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/WordPress_blue_logo.svg/512px-WordPress_blue_logo.svg.png"
+                src="https://demo.7iquid.com/donalfarm/wp-content/uploads/2024/10/ld-wp.png"
                 alt="WordPress"
                 className="w-8 h-8"
               />
             </div>
-            <div className="bg-orange-300 p-4 rounded-full">
+            <div className="bg-amber-300 p-4 rounded-full">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Elementor_logo.svg"
+                src="https://demo.7iquid.com/donalfarm/wp-content/uploads/2024/10/ld-elementor.png"
                 alt="Elementor"
                 className="w-8 h-8"
               />
@@ -52,7 +52,7 @@ const HeroSection: React.FC = () => {
       </div>
 
       {/* Floating Image for Small Devices */}
-      <div className="absolute bottom-0 right-6 md:hidden z-20">
+      <div className="absolute bottom-0 right-6 md:hidden z-20 h-2/4 w-2/3">
         <Image
           src="https://res.cloudinary.com/ddrzrekyg/image/upload/v1734507691/ld-banner-1_lzsqjn.webp"
           alt="Farmer Holding Vegetables"
