@@ -2,26 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-/* Add this to your global CSS or in a module CSS file */
-@layer utilities {
-  .shadow-gradient {
-    box-shadow: 0 4px 30px rgba(255, 165, 0, 0.6), 0 0 15px rgba(255, 255, 255, 0.3);
-  }
+.containers {
+  @apply w-[98%] md:w-[90%] lg:w-[80%] mx-auto max-w-[2420px];
 }

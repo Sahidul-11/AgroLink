@@ -115,7 +115,7 @@ const Header: React.FC = () => {
   return (
     <>
       {/* Header */}
-      <nav className="bg-green-900 text-white shadow-lg fixed top-0 left-0 w-full z-50">
+      <nav className="bg-green-950 text-white shadow-lg fixed top-0 left-0 w-full z-50">
         <div className="mx-2 md:mx-6 lg:mx-10 flex items-center justify-between py-3">
           <div className="flex items-center justify-center gap-3">
             <div className="md:hidden">
@@ -151,7 +151,7 @@ const Header: React.FC = () => {
               🔍
             </button>
             <Link href="/sign-in">
-              <button className=" text-yellow-300 px-6 py-2 border-2 border-yellow-400 rounded-md hover:bg-yellow-400 hover:text-green-800 transition-all duration-300">
+              <button className=" text-yellow-300 px-6 py-2 border-2 border-yellow-400 rounded-md hover:bg-amber-400 hover:text-white transition-all duration-300">
                 Sign In / Sign Up
               </button>
             </Link>
@@ -169,8 +169,8 @@ const Header: React.FC = () => {
       {/* Modal */}
       {showModal && (
         <div
-          className="fixed  -top-0 w-full z-50 flex items-center justify-center bg-green-700 bg-opacity-100 p-5 transition-transform duration-300"
-          onClick={() => setShowModal(false)} // Close modal when background is clicked
+          className="fixed  -top-0 w-full z-50 flex items-center justify-center bg-green-900 bg-opacity-100 p-5 transition-transform duration-300"
+        
         >
         
             <div className=" flex w-full">
